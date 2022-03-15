@@ -3,6 +3,7 @@ library(shiny)
 library(kableExtra)
 library(tidyverse)
 library(scales)
+library(rsconnect)
 
 Claims_Data <- read_excel("R Shiny Assignment.xlsx", sheet = "Assignment", range = "B3:D9")
 Tail_Factor <- read_excel("R Shiny Assignment.xlsx", sheet = "Assignment", range = "C12:C12",
@@ -130,4 +131,3 @@ server <- function(input, output){
 }
 
 shinyApp(ui = ui, server = server)
-
