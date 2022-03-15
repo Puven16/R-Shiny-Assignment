@@ -1,0 +1,13 @@
+name: R-Shiny-Assignment
+title: R-Shiny-Assignment
+username:
+account: puvendren
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5860560
+bundleId: 5688041
+url: https://puvendren.shinyapps.io/R-Shiny-Assignment/
+when: 1647370380.4703
+lastSyncTime: 1647370380.4703
+asMultiple: FALSE
+asStatic: FALSE
